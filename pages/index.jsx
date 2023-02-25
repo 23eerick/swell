@@ -86,7 +86,7 @@ export default function Home() {
             Registre seu produto e gerencie <br /> seu estoque.
           </Text>
           <Button>
-            <Link href='/login' style={{ textDecoration: 'none', background: 'none', fontSize: '20px', color: '#fff' }}>
+            <Link href='/sign-in' style={{ textDecoration: 'none', background: 'none', fontSize: '20px', color: '#fff' }}>
               Entrar
             </Link>
           </Button>
