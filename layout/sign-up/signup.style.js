@@ -50,13 +50,9 @@ export const Form = styled.form`
   justify-content: center;
 `
 
-export const Span = styled.span`
-  width: 90%;
-  color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  background-color: rgba(255, 0, 0, 0.90);
+export const P = styled.p`
+margin-top: 10px;
+color: rgba(255, 0, 0, 0.90);
 `
 
 export const Label = styled.label`
