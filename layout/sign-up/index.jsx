@@ -8,7 +8,7 @@ import { Section, Container, Title, Box, Text, Form, P, Label, TextLabel, Input,
 const schema = yup.object({
   email:
     yup.string()
-      .email()
+      .email('Insira um email válido')
       .required('O email é obrigatório'),
   senha:
     yup.string()
@@ -18,7 +18,8 @@ const schema = yup.object({
     yup.string()
       .required('confirmar senha')
       .oneOf([yup.ref('senha')],
-        'Senha inválida')
+        'Senha inválida'
+      )
 })
 
 export function SignUp() {
